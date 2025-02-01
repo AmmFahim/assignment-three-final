@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- DaisyUI cdn -->
+    <!-- DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Font Awesome -->
+    <!-- Font -->
     <script src="https://kit.fontawesome.com/7f0a98f75f.js" crossorigin="anonymous"></script>
-    <!-- Tailwind -->
+    <!-- My ... Tailwind -->
     <script>
         tailwind.config = {
           theme: {
@@ -21,16 +21,15 @@
           }
         }
       </script>
-      <!-- google fonts link -->
+      <!-- google fonts -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <!-- Font -->
      <style>
-        .font-ad{
+        .my-fav-font{
             font-family: "ADLaM Display", serif;
         }
-        .font-sora{
+        .fahim-font{
             font-family: "Sora", serif;
         }
      </style>
@@ -56,21 +55,21 @@
          <nav class="bg-body-bg border-b lg:border-b-0 border-black">
             <div class="navbar flex container mx-auto justify-between">
                 <div class="navbar-start flex gap-3">  
-                  <img src="./c1-assets/logo-header.png" alt="">
+                  <img class="animate-bounce" src="./c1-assets/logo-header.png" alt="">
                   <a class="text-xl font-sara hidden lg:flex">Browse<span class="text-btn-bg">4</span>Pets</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a class="font-sora">Find a pet</a></li>
-                    <li><a class="font-sora">Breeds</a></li>
-                    <li><a class="font-sora">Contact us</a></li>
+                    <li><a class="fahim-font">Find a pet</a></li>
+                    <li><a class="fahim-font">Breeds</a></li>
+                    <li><a class="fahim-font">Contact us</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end hidden lg:flex">
                   <i class="fa-regular fa-bell mr-3 cursor-pointer"></i>
                   <i class="fa-solid fa-magnifying-glass mr-3 cursor-pointer"></i>
-                  <a class="btn bg-transparent border-1 mr-3 border-btn-bg font-sora">Login</a>
-                  <a class="btn bg-btn-bg font-sora">Register</a>
+                  <a class="btn bg-transparent border-1 mr-3 border-btn-bg fahim-font">Login</a>
+                  <a class="btn bg-btn-bg fahim-font">Register</a>
                 </div>
 
                 <div class="dropdown">
@@ -105,13 +104,11 @@
           <section class="container mx-auto mt-8 px-4 lg:mt-24">
             <div class="relative bg-[url('./c1-assets/cat-big.png')] bg-contain bg-no-repeat bg-center w-full h-[500px] lg:h-[700px]">
                 <div class="">
-                    <h1 class="font-ad text-xl lg:text-5xl leading-tight">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-                    <p class="py-2 lg:py-4 font-sora w-9/12">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                    <button class="px-6 py-3 text-black text-lg rounded-lg animate-bounce btn bg-btn-bg font-sora">Find a pet</button>
+                    <h1 class="my-fav-font text-xl lg:text-5xl leading-tight">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+                    <p class="py-2 lg:py-4 fahim-font w-9/12">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+                    <button class="px-6 py-3 text-black text-lg rounded-lg animate-bounce btn bg-btn-bg fahim-font">Find a pet</button>
                 </div>
-                <!-- Animation -->
-                <!-- <div class="absolute h-4 w-4 left-[200px] bg-red-600 lg:h-10 lg:w-10 lg:left-[600px] animate-spin">
-                </div> -->
+                <!-- Bikkhato Animation -->
 
                     <div class="animate-bounce w-6 h-8 absolute left-[200px] lg:h-32 lg:w-10 lg:left-[600px]"> <i class="fa-solid fa-caret-down text-xl lg:text-5xl"></i>
                     </div>
@@ -123,43 +120,43 @@
     <main>
         <!-- Browse section -->
          <section class="lg:mt-24 container px-3 mx-auto">
-             <h2 class="font-ad text-3xl">Browse By Categories</h2>
+             <h2 class="my-fav-font text-3xl">Browse By Categories</h2>
              <!-- card -->
             <div class="grid grid-cols-2 lg:grid-cols-6 gap-6 mt-10">
                 <div class="bg-[#F9DF8A] flex flex-col items-center justify-center p-10 space-y-4 rounded-lg">
                     <img class="w-20 bg-white p-5 rounded-full" src="./c1-assets/dog-cartoon.png" alt="">
-                    <h3 class="font-ad text-lg">Dog</h3>
-                    <p class="font-sora">3 Items</p>
+                    <h3 class="my-fav-font text-lg">Dog</h3>
+                    <p class="fahim-font">3 Items</p>
                 </div>
 
                 <div class="bg-[#F9DF8A] flex flex-col items-center justify-center p-10 space-y-4 rounded-lg">
                     <img class="w-20 bg-white p-5 rounded-full" src="./c1-assets/fish-cartoon.png" alt="">
-                    <h3 class="font-ad text-lg">Dog</h3>
-                    <p class="font-sora">3 Items</p>
+                    <h3 class="my-fav-font text-lg">Dog</h3>
+                    <p class="fahim-font">3 Items</p>
                 </div>
 
                 <div class="bg-[#F9DF8A] flex flex-col items-center justify-center p-10 space-y-4 rounded-lg">
                     <img class="w-20 bg-white p-5 rounded-full" src="./c1-assets/cat-cartoon.png" alt="">
-                    <h3 class="font-ad text-lg">Dog</h3>
-                    <p class="font-sora">3 Items</p>
+                    <h3 class="my-fav-font text-lg">Dog</h3>
+                    <p class="fahim-font">3 Items</p>
                 </div>
 
                 <div class="bg-[#F9DF8A] flex flex-col items-center justify-center p-10 space-y-4 rounded-lg">
                     <img class="w-20 bg-white p-5 rounded-full" src="./c1-assets/bird-cartoon.png" alt="">
-                    <h3 class="font-ad text-lg">Dog</h3>
-                    <p class="font-sora">3 Items</p>
+                    <h3 class="my-fav-font text-lg">Dog</h3>
+                    <p class="fahim-font">3 Items</p>
                 </div>
 
                 <div class="bg-[#F9DF8A] flex flex-col items-center justify-center p-10 space-y-4 rounded-lg">
                     <img class="w-20 bg-white p-5 rounded-full" src="./c1-assets/mouse-cartoon.png" alt="">
-                    <h3 class="font-ad text-lg">Dog</h3>
-                    <p class="font-sora">3 Items</p>
+                    <h3 class="my-fav-font text-lg">Dog</h3>
+                    <p class="fahim-font">3 Items</p>
                 </div>
 
                 <div class="bg-[#F9DF8A] flex flex-col items-center justify-center p-10 space-y-4 rounded-lg">
                     <img class="w-20 bg-white p-5 rounded-full" src="./c1-assets/rabbit-cartoon.png" alt="">
-                    <h3 class="font-ad text-lg">Dog</h3>
-                    <p class="font-sora">3 Items</p>
+                    <h3 class="my-fav-font text-lg">Dog</h3>
+                    <p class="fahim-font">3 Items</p>
                 </div>
             </div>
             
@@ -173,16 +170,16 @@
         <div class="container px-3 py-20  mx-auto">
           <!-- info heading -->
           <div>
-            <h3 class="text-2xl lg:text-4xl font-ad">Trending Pet Products</h3>
+            <h3 class="text-2xl lg:text-4xl my-fav-font">Trending Pet Products</h3>
           </div>
           <!-- card-box -->
           <div class="mt-8 grid gap-6 grid-cols-1 lg:grid-cols-[35%_64%]">
             <!-- left-side -->
             <div
               class=" h-[400px] space-y-5 bg-primary p-8 rounded-md bg-[url(c1-assets/cute-pet-small.png)] bg-no-repeat cursor-pointer bg-right">
-              <h3 class="font-ad text-xl">T- Shirt For Dogs</h3>
+              <h3 class="my-fav-font text-xl">T- Shirt For Dogs</h3>
               <p>Discover a world of treats, toys, and <br> essentials handpicked for</p>
-              <button class="py-2 px-6 bg-white rounded-md font-sora">Shop Now</button>
+              <button class="py-2 px-6 bg-white rounded-md fahim-font">Shop Now</button>
             </div>
             <!-- right-side -->
             <div class="grid grid-cols-2 gap-3 lg:grid-cols-3">
@@ -196,13 +193,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -216,13 +213,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -236,13 +233,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -256,13 +253,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -276,13 +273,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -296,13 +293,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora">Pet Bed</p>
+                    <p class="fahim-font">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -316,13 +313,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -336,13 +333,13 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -356,34 +353,17 @@
                 <div class="text-sm">
                   <div>
                     <i class="fa-solid fa-star text-btn-bg"></i>
-                    <p class="inline font-sora">4.5</p>
+                    <p class="inline fahim-font">4.5</p>
                   </div>
                   <div>
-                    <p class="font-sora font-medium">Pet Bed</p>
+                    <p class="fahim-font font-medium">Pet Bed</p>
                   </div>
                   <div>
-                    <p class="font-sora">$39.99</p>
+                    <p class="fahim-font">$39.99</p>
                   </div>
                 </div>
               </div>
-              <!-- card-10 -->
-              <!-- <div class=" md:hidden lg:hidden flex justify-center items-center gap-x-8 bg-white border rounded-md p-2">
-                <div>
-                  <img class="bg-orange-50 p-3 rounded-lg" src="assets/dog-cartoon.png" alt="">
-                </div>
-                <div class="text-xs">
-                  <div>
-                    <i class="fa-solid fa-star text-btncolor"></i>
-                    <p class="inline sora">4.5</p>
-                  </div>
-                  <div>
-                    <p class="sora">Pet Bed</p>
-                  </div>
-                  <div>
-                    <p class="sora">$39.99</p>
-                  </div>
-                </div>
-              </div> -->
+
             </div>
           </div>
         </div>
@@ -394,7 +374,7 @@
       <!-- Extra section -->
       <section class="mt-16 py-10 bg-body-bg px-4">
         <div class="container mx-auto">
-            <h3 class="text-2xl lg:text-4xl font-ad text-center">Pussy Cat</h3>
+            <h3 class="text-2xl lg:text-4xl my-fav-font text-center">Pussy Cat</h3>
           </div>
         <div class="stats shadow flex flex-col lg:flex-row justify-center items-center container mx-auto lg:w-[1000px] mt-10">
             <div class="stat">
@@ -407,13 +387,13 @@
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="0.3"
                     d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
               </div>
               <div class="stat-title pl-6">Total Sell</div>
               <div class="stat-value pl-6">3K cat</div>
-              <div class="stat-desc pl-6">Starting - 2024</div>
+              <div class="stat-desc pl-6">🕒 Starting - 2024</div>
             </div>
           
             <div class="stat p-14">
@@ -424,15 +404,15 @@
                   viewBox="0 0 24 24"
                   class="inline-block h-8 w-8 stroke-current">
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-linecap="triangle"
+                    stroke-linejoin="triangle"
+                    stroke-width="0.3"
                     d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                 </svg>
               </div>
               <div class="stat-title">New Sell in This Month</div>
               <div class="stat-value">150 cat</div>
-              <div class="stat-desc">↗︎ 400 (22%)</div>
+              <div class="stat-desc">📈 5k (25%)</div>
             </div>
           
             <div class="stat p-14">
@@ -445,13 +425,13 @@
                   <path
                     stroke-linecap="round"
                     stroke-linejoin="round"
-                    stroke-width="2"
+                    stroke-width="0.3"
                     d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4"></path>
                 </svg>
               </div>
               <div class="stat-title">In Stock(Cat)</div>
               <div class="stat-value">2.5k</div>
-              <div class="stat-desc">Variety↘︎ 37</div>
+              <div class="stat-desc">Variety ♻ 37</div>
             </div>
           </div>
       </section>
@@ -461,7 +441,7 @@
     <section class="container mx-auto px-3 py-14">
         <!-- info heading -->
         <div>
-          <h3 class="text-2xl lg:text-4xl font-ad">Everyday low Price</h3>
+          <h3 class="text-2xl lg:text-4xl my-fav-font">Everyday low Price</h3>
         </div>
         <div class="mt-8 grid gap-6 lg:grid-cols-[60%_38%]">
   
@@ -470,10 +450,10 @@
             class="bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-md p-4 lg:px-14 flex lg:items-center">
             <!-- text info -->
             <div class="space-y-5 ">
-              <p class="font-sora hidden lg:block">Under Price</p>
-              <h3 class="font-ad text-sm lg:text-3xl">Pet Grooming Mitt</h3>
-              <p class="font-ad text-white hidden lg:block">(Easy Hair Removal)</p>
-              <h3 class="font-ad text-3xl lg:text-5xl text-white lg:text-black ">$7.99</h3>
+              <p class="fahim-font hidden lg:block">Under Price</p>
+              <h3 class="my-fav-font text-sm lg:text-3xl">Pet Grooming Mitt</h3>
+              <p class="my-fav-font text-white hidden lg:block">(Easy Hair Removal)</p>
+              <h3 class="my-fav-font text-3xl lg:text-5xl text-white lg:text-black ">$7.99</h3>
             </div>
             <!-- img -->
             <div>
@@ -482,8 +462,8 @@
           </div>
           <!-- right -->
           <div class="bg-body-bg lg:space-y-3 pl-10 rounded-md bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A]">
-            <h3 class="font-ad text-sm lg:text-3xl mt-12">T- Shirt For Dogs</h3>
-            <h3 class="font-ad text-3xl lg:text-5xl text-[#FFDC26] ">$7.99</h3>
+            <h3 class="my-fav-font text-sm lg:text-3xl mt-12">T- Shirt For Dogs</h3>
+            <h3 class="my-fav-font text-3xl lg:text-5xl text-[#FFDC26] ">$7.99</h3>
             <img class="ml-auto" src="c1-assets/cute-pet-mid.png" alt="">
           </div>
         </div>
@@ -505,12 +485,12 @@
           </div>
           <!-- right -->
           <div class="space-y-6 text-center lg:text-left">
-            <h3 class=" text-2xl lg:text-4xl font-ad">Get Pawsome News!</h3>
-            <p class="font-sora px-3 lg:px-0">Exclusive training tips, ticks, product deals and more.</p>
+            <h3 class=" text-2xl lg:text-4xl my-fav-font">Get Pawsome News!</h3>
+            <p class="fahim-font px-3 lg:px-0">Exclusive training tips, ticks, product deals and more.</p>
             <input class="block mx-auto w-[350px] lg:w-full p-4 rounded-md" type="email" name=""
               id="" placeholder="Enter Email...">
             <button
-              class="py-2 px-6 bg-btn-bg border border-primary rounded-md font-sora">Subscribe</button>
+              class="py-2 px-6 bg-btn-bg border border-primary rounded-md fahim-font">Subscribe</button>
           </div>
   
         </div>
@@ -522,7 +502,7 @@
       <div class="space-y-3">
         <div class="flex items-center gap-x-3">
           <img src="c1-assets/logo-footer.png" alt="">
-          <h3 class="font-sora text-xl ">Browse<span class="text-btn-bg">4</span>Pets</h3>
+          <h3 class="fahim-font text-xl ">Browse<span class="text-btn-bg">4</span>Pets</h3>
         </div>
         <div>
           <p>Discover a world of treats, toys, and <br>essentials handpicked for your furry<br> friends</p>
@@ -531,14 +511,14 @@
       <!-- middle -->
       <div class="py-6">
         <ul class="space-y-3">
-          <li class="font-sora"><a href="#">Find a Pet</a></li>
-          <li class="font-sora"><a href="#">Breeds</a></li>
-          <li class="font-sora"><a href="#">Contact Us</a></li>
+          <li class="fahim-font"><a href="#">Find a Pet</a></li>
+          <li class="fahim-font"><a href="#">Breeds</a></li>
+          <li class="fahim-font"><a href="#">Contact Us</a></li>
         </ul>
       </div>
       <!-- right -->
       <div class="space-y-3 flex flex-col justify-center">
-        <p class="font-sora text-sm">Follow Us</p>
+        <p class="fahim-font text-sm">Follow Us</p>
         <div class="space-x-3">
           <a href=""><i class="fa-brands fa-facebook"></i></a>
           <a href=""><i class="fa-brands fa-instagram"></i></a>
